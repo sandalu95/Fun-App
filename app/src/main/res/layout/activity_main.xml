@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:text="@string/txtView_app_component_txt"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btnBackgroun"
+        android:onClick="openActivity"
+        android:text="@string/btn_activity_txt" />
+
+    <Button
+        android:id="@+id/btn_services"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btnBackgroun"
+        android:onClick="openService"
+        android:text="@string/btn_services_txt" />
+
+    <Button
+        android:id="@+id/btn_content_providers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btnBackgroun"
+        android:onClick="openContentProvider"
+        android:text="@string/btn_content_providers_txt" />
+
+    <Button
+        android:id="@+id/btn_broadcast_receivers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btnBackgroun"
+        android:onClick="openBroadcastProvider"
+        android:text="@string/btn_broadcast_receivers_txt" />
+</LinearLayout>

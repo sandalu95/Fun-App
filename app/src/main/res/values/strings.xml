@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FunApp</string>
+    <string name="btn_activity_txt">Activity</string>
+    <string name="btn_services_txt">Services</string>
+    <string name="btn_content_providers_txt">Content Provider</string>
+    <string name="btn_broadcast_receivers_txt">Broadcast Receivers</string>
+    <string name="txtView_app_component_txt">App Components</string>
+    <string name="txtView_activity_example_txt">Activity Example</string>
+    <string name="txtView_service_example_txt">Service Example</string>
+    <string name="txtView_content_exaple_txt">Content Provider Example</string>
+    <string name="txtView_broadcast_example_txt">Broadcast Receiver Example</string>
+    <string name="btn_start_txt">Start</string>
+    <string name="btn_stop_txt">stop</string>
+    <string name="btn_register_txt">Register</string>
+    <string name="btn_unregsiter_txt">Unregister</string>
+</resources>
